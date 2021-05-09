@@ -5,7 +5,7 @@ import { apiLogin, apiNecesitoLoginP, fetchConToken, usuarioLeer } from '../../s
 
 import LoginTemplate from "./LoginTemplate"
 
-export default function Login({statusUsuario, setStatusUsuario}) {
+export default function Login({setStatusUsuario}) {
 
 	const [nombreUsuario, setNombreUsuario] = useState("")
 	const [contraseniaUsuario, setContraseniaUsuario] = useState("")

@@ -77,12 +77,7 @@ export default function App() {
   }, []);
 
   if (statusUsuario == NECESITA_LOGIN) {
-    return (
-      <Login
-        statusUsuario={statusUsuario}
-        setStatusUsuario={setStatusUsuario}
-      />
-    );
+    return <Login setStatusUsuario={setStatusUsuario} />;
   } else {
     return <AppBar rutas={Rutas} />;
   }
