@@ -103,7 +103,7 @@ export async function apiNecesitoLoginP() {
     if (tokFresco.access) {
       //A: bien, consegui un token fresco}
       tokX.access = tokFresco.access;
-      tokenGuardar(tokX);
+      tokenGuardar(tokX, usuarioLeer());
       result = false; //A: no necesito login
     }
   }
