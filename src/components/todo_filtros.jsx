@@ -22,15 +22,15 @@ const CheckboxConIcono = (props) => {
 	/>
 }
 
-export default function ToDoFiltros(props) {
-	const avisarCuandoCambia= props.cuandoCambia || ( (estado) => console.log('ToDoFiltros cuandoCambia',estado) )
+export default function ToDoFiltros({setState, state, cuandoCambia}) {
+	const avisarCuandoCambia= cuandoCambia || ( (estado) => console.log('ToDoFiltros cuandoCambia',estado) )
 	//A: si no nos pasaron cuandoCambia definimos una que avise en la consola
 
-	const [state, setState] = React.useState({
+	/*const [state, setState] = React.useState({
 		escribir: true,
 		wifi: true,
 		pensar: true,
-	});
+	});*/
 
 	const handleChange = (nombre, estaCheckeado) => {
 		const nuevoEstado= { ...state, [nombre]: estaCheckeado };
