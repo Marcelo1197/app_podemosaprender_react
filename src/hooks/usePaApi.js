@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { fetchConToken } from "../services/pa-auth";
+import { fetchConToken } from "../services/pa-api";
 
 export const useHookState = (estadoInicial) => {
   const [hookState, setHookState] = useState(estadoInicial);
