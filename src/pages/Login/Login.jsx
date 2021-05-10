@@ -1,7 +1,9 @@
 //INFO: pantalla de login en podemos aprender
 
 import { useState, useEffect } from 'react';
-import { apiLogin, apiNecesitoLoginP, fetchConToken, usuarioLeer } from '../../services/pa-auth';
+import { apiLogin, apiNecesitoLoginP, fetchConToken, usuarioLeer } from '../../services/pa-api';
+
+import CircularProgress from '@material-ui/core/CircularProgress';
 
 import LoginTemplate from "./LoginTemplate"
 
@@ -44,7 +46,7 @@ export default function Login({setStatusUsuario}) {
 	return (
 		preLoader
 			? 
-			<h1>Cargando...</h1>
+			<CircularProgress />
 			:
 			<LoginTemplate 
 				onChangeUsuario={handleChangeInputUsuario} 

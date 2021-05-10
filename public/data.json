@@ -1,0 +1,107 @@
+[
+  {
+      "id": 1,
+      "user": "marcelo",
+      "titulo": "aprender redux",
+      "descripcion": "Aprender redux, leer sobre el patron FLUX, hacer diagramas de flujo y luego codear",
+      "completado": false,
+      "necesito": [
+        {
+          "valor": true,
+          "recurso": "escribir"
+        },
+        { 
+          "valor": true,
+          "recurso": "wifi"
+        },
+        {
+          "valor": true,
+          "recurso": "pensar"
+        }
+      ]
+  },
+  {
+      "id": 2,
+      "user": "marcelo",
+      "titulo": "leer libro scrum",
+      "descripcion": "Leer por al menos 30minutos el libro scrum",
+      "completado": false,
+      "necesito": [
+        {
+          "valor": false,
+          "recurso": "escribir"
+        },
+        { 
+          "valor": false,
+          "recurso": "wifi"
+        },
+        {
+          "valor": true,
+          "recurso": "pensar"
+        }
+      ]
+  },
+  {
+      "id": 3,
+      "user": "marcelo",
+      "titulo": "aprender node.js",
+      "descripcion": "dedicarle 1 hora de estudio a node.js",
+      "completado": false,
+      "necesito": [
+        {
+          "valor": true,
+          "recurso": "escribir"
+        },
+        { 
+          "valor": true,
+          "recurso": "wifi"
+        },
+        {
+          "valor": true,
+          "recurso": "pensar"
+        }
+      ]
+  },
+  {
+      "id": 4,
+      "user": "marcelo",
+      "titulo": "crear interfaces con MU",
+      "descripcion": "Crear interfaces con material ui para la app",
+      "completado": false,
+      "necesito": [
+        {
+          "valor": true,
+          "recurso": "escribir"
+        },
+        { 
+          "valor": true,
+          "recurso": "wifi"
+        },
+        {
+          "valor": true,
+          "recurso": "pensar"
+        }
+      ]
+  },
+  {
+      "id": 5,
+      "user": "marcelo",
+      "titulo": "hacer ejercicio",
+      "descripcion": "dedicarle 01:30:00hs a hacer ejercicio",
+      "completado": false,
+      "necesito": [
+        {
+          "valor": false,
+          "recurso": "escribir"
+        },
+        { 
+          "valor": false,
+          "recurso": "wifi"
+        },
+        {
+          "valor": false,
+          "recurso": "pensar"
+        }
+      ]
+  }
+]

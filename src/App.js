@@ -9,7 +9,7 @@ import {
   apiNecesitoLoginP,
   fetchConToken,
   usuarioLeer,
-} from "./services/pa-auth";
+} from "./services/pa-api";
 
 import reportWebVitals from "./reportWebVitals";
 
